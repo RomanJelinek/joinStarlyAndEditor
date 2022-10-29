@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/editor/", "destination": "https://starmap.vercel.app/editor" },
+    {
+      "source": "/editor/:match*",
+      "destination": "https://starmap.vercel.app/editor/:match*"
+    },
+    { "source": "/", "destination": "https://starmap-lp.vercel.app/" },
+    {
+      "source": "/:match*",
+      "destination": "https://starmap-lp.vercel.app/:match*"
+    }
+  ]
+}
